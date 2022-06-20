@@ -1,0 +1,160 @@
+#tabs {
+  font-family: 'Work Sans', sans-serif;
+  height: 550px;
+  flex-basis: 50%;
+}
+
+.tabs-item {
+  border-radius: 10px;
+  background: #d5d5d5;
+  height: 30%;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.tabs-item-2 {
+  border-radius: 10px;
+  background: #d5d5d5;
+  height: 30%;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+@media (min-width: 992px) {
+  .tabs-item {
+    border-radius: 10px;
+    background: #d5d5d5;
+    height: 30%;
+    margin-right: 15px;
+    margin-bottom: 0px!important;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 992px) {
+  .tabs-item-2 {
+    border-radius: 10px;
+    background: #d5d5d5;
+    height: 30%;
+    margin-left: 15px;
+    margin-bottom: 0px!important;
+    cursor: pointer;
+  }
+}
+
+.tabs-item-inner {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.tabs-item :hover {
+  background-color: #4185F4!important;
+  color: #fff;
+}
+
+#tab1-image-full {
+  display: none;
+}
+
+#tab2-image-full {
+  display: none;
+}
+
+#tab3-image-full {
+  display: none;
+}
+
+#tab4-image-full {
+  display: none;
+}
+
+#tab5-image-full {
+  display: none;
+}
+
+#tab6-image-full {
+  display: none;
+}
+
+#tab1-image-mobile {
+  display: none;
+  margin-bottom: 15px;
+}
+
+#tab2-image-mobile {
+  display: none;
+  margin-bottom: 15px;
+}
+
+#tab3-image-mobile {
+  display: none;
+  margin-bottom: 15px;
+}
+
+#tab4-image-mobile {
+  display: none;
+  margin-bottom: 15px;
+}
+
+#tab5-image-mobile {
+  display: none;
+  margin-bottom: 15px;
+}
+
+#tab6-image-mobile {
+  display: none;
+  margin-bottom: 15px;
+}
+
+.tab-image-show {
+  display: block!important;
+}
+
+.tab-image-show-2 {
+  display: block!important;
+}
+
+.tabs-item-select {
+  background-color: #4185F4!important;
+  color: #fff;
+}
+
+.tabs-item-select-2 {
+  background-color: #4185F4!important;
+  color: #fff;
+}
+
+.tabs-item p {
+  font-size: 17px!important;
+  line-height: 19px!important;
+}
+
+.tabs-item-2 p {
+  font-size: 17px!important;
+  line-height: 19px!important;
+}
+
+.tabs-item h2 {
+  font-size: 20px!important;
+  line-height: 20px!important;
+}
+
+.tabs-item-2 h2 {
+  font-size: 20px!important;
+  line-height: 20px!important;
+}
+
+#tabs-image-area {
+  flex-basis: 50%;
+  display: none;
+}
+
+@media (min-width: 992px) {
+  #tabs-image-area {
+    flex-basis: 50%;
+    display: block!important;
+  }
+}
+

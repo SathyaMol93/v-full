@@ -1,0 +1,20 @@
+#headerPopup1 {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#headerPopup2 {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#headerPopup1 iframe {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#headerPopup2 iframe {
+  width: 100%;
+  margin: 0 auto;
+}
+
